@@ -9,8 +9,8 @@ server.listen(process.env.port || process.env.PORT || 3978, function () {
   
 // No te preocupes por estas credenciales por ahora, luego las usaremos para conectar los canales.
 var connector = new builder.ChatConnector({
-    appId: '',
-    appPassword: ''
+    appId: '48720243-fa76-45dc-95b6-0a31b54e17eb',
+    appPassword: 'tJa4k[+ZhH9nz;wm'
 });
 
 // Ahora utilizamos un UniversalBot
